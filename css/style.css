@@ -1,0 +1,271 @@
+
+body {
+  font-family: 'ヒラギノ角ゴ ProN';
+  user-select: none;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+}
+.top {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title-text {
+  color: #fff;
+  font-size: 48px;
+  width: 384px;
+  height: 54px;
+  position: absolute;
+  top: 236px;
+  left: 437px;
+}
+
+.button-text {
+  background-color: #1E88F5;
+  color: #fff;
+  font-size: 20px;
+  width: 337px;
+  height: 64px;
+  position: absolute;
+  top: 330px;
+  left: 452px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-menu {
+  width: 450px;
+  height: 56px;
+  line-height: 56px;
+  top: 7px;
+  left: 857px;
+  position: absolute;
+  color: #fff;
+  padding: 0;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+}
+
+.top-menu > div {
+  display: inline-block;
+  margin: 24px 48px 0 0;
+  vertical-align: middle;
+}
+  
+.contact-button {
+  background-color: #ffcc01;
+  border-radius: 4px;
+  width: 167px;
+  height: 56px;
+
+}
+
+.titletextbox {
+  width: 660px;
+  height: 730px;
+  top: 826px;
+  left: 620px;
+  position: absolute;
+}
+
+.titletext {
+  background-color: #fff;
+  color: 0D253E;
+  border: 1px #eee solid; 
+  border-radius: 4px;
+  height: 230px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 32px;
+  margin-left: 59px;
+}
+
+.text {
+  font-size: 22px;
+  margin-left: 59px;
+  width: 528px;
+  opacity: .4;
+}
+
+.main {
+  top: 690px;
+  left: 353px;
+  width: 1280px;
+  height: 92px;
+  margin: 36px 0 92px 0;
+  color: #0D253E;
+  text-align: center;
+}
+
+.part2 {
+  color: #fff;
+  font-size: 46px;
+  width: 552px;
+  height: 142px;
+  top: 1170px;
+  left: 40px;
+  position: absolute;
+}
+
+.button-yellow {
+  width: 337px;
+  height: 64px;
+  margin: 0 auto;
+  margin-top: 32px;
+  background-color: #FFCC01;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.button-blue {
+  width: 337px;
+  height: 64px;
+  margin: 0 auto;
+  margin-top: 32px;
+  background-color: #1e88f5;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.plans {
+  width: 1100px;
+  height: 743px;
+  margin: 85px 0 0 91px;
+}
+
+.plan {
+  display: inline-block;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.plan:last-child {
+  margin: 0;
+}
+
+.plan-name {
+  margin: 0;
+  padding-top: 74px;
+  font-size: 28px;
+}
+
+.basic {
+  background-color: #1e88f5;
+  color: #fff;
+  width: 510px;
+  height: 250px;
+  border-radius: 4px 4px 0 0;
+}
+
+.plemium {
+  background-color: #FFCC01;
+  color: #fff;
+  width: 510px;
+  height: 250px;
+  border-radius: 4px 4px 0 0;
+  
+}
+
+.price {
+  font-size: 60px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.checklist-blue li {
+  background: url("../img/check-blue.png") no-repeat left;
+  line-height: 80px;
+  opacity: .4;
+}
+
+.checklist-yellow li {
+  background: url("../img/check-yellow.png") no-repeat left;
+  line-height: 80px;
+  opacity: .4;
+
+}
+
+.checklist-blue {
+  width: 510px;
+  height: 493px;
+  border: 1px #eee solid; 
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
+}
+
+.checklist-yellow {
+  width: 510px;
+  height: 493px;
+  border: 1px #eee solid; 
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
+}
+
+.icons {
+  width: 1080px;
+  height: 306px;
+  margin: 60px 0 0 82px;
+}
+
+.icon{
+  display: inline-block;
+  margin: 0 110px 0 0;
+  width: 280px;
+  text-align: center;
+  
+}
+
+.icon > .title {
+  margin: 0;
+}
+
+.icon > .text {
+  opacity: .4;
+  margin-left: 0px;
+  width: auto;
+}
+
+.icon:last-child {
+  display: inline-block;
+  margin: 0;
+}
+
+.footer {
+  margin: 176px 0 165px 0;
+  
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu li {
+  margin: 0 0 26px 0;
+  opacity: .4;
+}
+
+.footer img {
+  margin-left: 20px;
+}
