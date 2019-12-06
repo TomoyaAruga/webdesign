@@ -1,0 +1,315 @@
+body {
+  font-family: 'ヒラギノ角ゴ ProN';
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  min-width: 1280px;
+  width: 100%;
+  height: 630px;
+  background-image: url("header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  min-width: 1280px;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu {
+  min-width: 1280px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.menu-button {
+  width: 167px;
+  height: 56px;
+  font-size: 18px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu > li {
+  margin-top: 24px;
+  margin-right: 48px;
+}
+
+.menu > li:last-child {
+  margin-right: 46px;
+  margin-top: 0;
+}
+
+
+.title-text {
+  color: #fff;
+  font-size: 48px;
+  width: 384px;
+  height: 54px;
+  margin-bottom: 40px;
+}
+
+.button {
+  width: 337px;
+  height: 64px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-blue {
+  background-color: #1E88F5;
+  box-shadow: 0  2px  4px #1E88F5;
+  
+}
+
+.button-yellow {
+  background-color: #FFCC01;
+  box-shadow: 0  2px  4px #FFCC01;
+
+}
+
+/* main */
+.main {
+  color: #0D253E;
+  min-width: 1280px;
+  width: 100%;
+  text-align: center;
+  margin: 60px 0 96px 0;
+}
+
+.main-title {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0 0 24px 0;
+}
+
+.main-text {
+  font-size: 24px;
+  opacity: .4;
+  margin: 0;
+}
+
+/* main2 */
+.main2 {
+  min-width: 1280px;
+  width: 100%;
+  height: 645px;
+  background-image: url("Bitmap.png");
+  background-size: cover;
+  display: flex;
+}
+
+.main2-box {
+  width: 552px;
+  height: 142px;
+  margin: 292px 28px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main2-text {
+  margin: 0;
+  color: #fff;
+  font-size: 46px;
+  line-height: 100%;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.main2-list {
+  width: 660px;
+  height: 730px;
+  margin-top: -52px;
+}
+
+.titletext {
+  width: 660px;
+  height: 230px;
+  background-color: #fff;
+  color: #0D253E;
+  border: 1px #eee solid; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 55px 73px 57px 59px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 32px;
+  margin: 0;
+}
+
+.text {
+  font-size: 22px;
+  opacity: .4;
+}
+
+
+/* プラン説明 */
+.plans {
+  width: 100%;
+  min-width: 1280px;
+  margin-top: 85px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center; 
+}
+
+.plan:last-child {
+  margin-left: 60px;
+}
+
+.basic {
+  background-color: #1e88f5;
+  color: #fff;
+  width: 510px;
+  height: 250px;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  margin: 0;
+}
+
+.plemium {
+  background-color: #FFCC01;
+  color: #fff;
+  width: 510px;
+  height: 250px;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+}
+
+.plan-name {
+  margin: 0;
+  padding-top: 74px;
+  font-size: 28px;
+}
+
+.price {
+  font-size: 60px;
+  margin: 0;
+}
+
+.checklist {
+  color: #0D253E;
+  width: 510px;
+  height: 493px;
+  border: 1px #eee solid; 
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
+}
+
+.checklist > ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 49px 0 99px 60px;
+}
+
+.checklist > .button {
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+/* アイコン */
+.icons {
+  width: 100%;
+  min-width: 1280px;
+  height: 306px;
+  margin: 60px 0 175.5px 0;
+  padding: 0 126px 0 91px;
+  display: flex;
+  justify-content: space-between; 
+  box-sizing: border-box;
+  color: #0D253E;
+}
+
+.icon {
+  width: 264px;
+  height: 306px;
+  text-align: center;
+}
+
+.icon2 > img {
+  margin: 4px 0;
+}
+
+/* フッター */
+.footer {
+  margin: 0 0 155px 24px;
+  
+}
+
+hr {
+  border: 1px border #d8d8d8;
+}
+
+.footer img {
+  margin: 25.5px 0 44px 20px;
+}
+
+.footer-menu {
+  width: 778px;
+  height: 62px;
+  opacity: .25;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.menu1 {
+  width: 281px;
+}
+
+.menu2 {
+  width: 197px;
+}
+
+.menu3 {
+  width: 225px;
+}
+
+.menu4 {
+  width: 75px;
+
+}
