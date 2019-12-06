@@ -1,6 +1,2 @@
-package.json
 .DS_Store
-README.md
-yarn.lock
-.vscode
 node_modules
