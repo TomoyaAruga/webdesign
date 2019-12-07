@@ -7,10 +7,10 @@ body {
 }
 
 .top {
-  min-width: 1280px;
+  max-width: 410px;
   width: 100%;
-  height: 630px;
-  background-image: url("header.png");
+  height: 200px;
+  background-image: url("../img/header.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -19,6 +19,8 @@ body {
 }
 
 .top-contents {
+  width: 192px;
+  height: 72px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +28,7 @@ body {
 }
 
 header {
-  min-width: 1280px;
+  max-width: 410px;
   width: 100%;
   height: 60px;
   position: absolute;
@@ -43,7 +45,7 @@ header {
 }
 
 .menu {
-  min-width: 1280px;
+  max-width: 410px;
   width: 100%;
   color: #fff;
   display: flex;
@@ -52,6 +54,8 @@ header {
   margin: 0;
   padding: 0;
   font-size: 18px;
+  visibility: hidden;
+
 }
 
 .menu-button {
@@ -77,17 +81,16 @@ header {
 
 .title-text {
   color: #fff;
-  font-size: 48px;
-  width: 384px;
-  height: 54px;
-  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .button {
-  width: 337px;
-  height: 64px;
+  width: 180px;
+  height: 24px;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -109,77 +112,81 @@ header {
 /* main */
 .main {
   color: #0D253E;
-  min-width: 1280px;
+  max-width: 410px;
   width: 100%;
   text-align: center;
-  margin: 60px 0 96px 0;
+  margin: 40px 0;
 }
 
 .main-title {
-  font-size: 38px;
+  font-size: 16px;
   font-weight: bold;
-  margin: 0 0 24px 0;
+  margin-bottom: 20px;
 }
 
 .main-text {
-  font-size: 24px;
+  font-size: 14px;
   opacity: .4;
   margin: 0;
 }
 
 /* main2 */
 .main2 {
-  min-width: 1280px;
+  max-width: 410px;
   width: 100%;
-  height: 645px;
-  background-image: url("Bitmap.png");
+  height: 600px;
+  background-image: url("../img/Bitmap.png");
   background-size: cover;
   display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 .main2-box {
-  width: 552px;
-  height: 142px;
-  margin: 292px 28px 0 40px;
+  width: 240px;
+  height: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: 40px 0 20px 0;
 }
 
 .main2-text {
   margin: 0;
   color: #fff;
-  font-size: 46px;
+  font-size: 20px;
   line-height: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .main2-list {
-  width: 660px;
-  height: 730px;
-  margin-top: -52px;
+  width: 360px;
+  height: 404px;
 }
 
 .titletext {
-  width: 660px;
-  height: 230px;
+  width: 360px;
+  height: 108px;
   background-color: #fff;
   color: #0D253E;
   border: 1px #eee solid; 
   border-radius: 4px;
   box-sizing: border-box;
-  padding: 55px 73px 57px 59px;
-  margin-bottom: 20px;
+  padding: 16px 12px 0 12px;
+  margin-bottom: 40px;
 }
 
 .title {
-  font-size: 32px;
+  font-size: 16px;
   margin: 0;
 }
 
 .text {
-  font-size: 22px;
+  font-size: 12px;
   opacity: .4;
 }
 
@@ -187,22 +194,24 @@ header {
 /* プラン説明 */
 .plans {
   width: 100%;
-  min-width: 1280px;
-  margin-top: 85px;
+  max-width: 410px;
+  margin-top: 48px;
   display: flex;
   box-sizing: border-box;
   justify-content: center; 
+  align-items: center;
+  flex-direction: column;
 }
 
-.plan:last-child {
-  margin-left: 60px;
+.plan {
+  margin-bottom: 31px;
 }
 
 .basic {
   background-color: #1e88f5;
   color: #fff;
-  width: 510px;
-  height: 250px;
+  width: 360px;
+  height: 80px;
   border-radius: 4px 4px 0 0;
   text-align: center;
   margin: 0;
@@ -211,27 +220,28 @@ header {
 .plemium {
   background-color: #FFCC01;
   color: #fff;
-  width: 510px;
-  height: 250px;
+  width: 360px;
+  height: 80px;
   border-radius: 4px 4px 0 0;
   text-align: center;
 }
 
 .plan-name {
   margin: 0;
-  padding-top: 74px;
-  font-size: 28px;
+  padding-top: 16px;
+  font-size: 14px;
 }
 
 .price {
-  font-size: 60px;
+  font-size: 18px;
+  font-weight: bold;
   margin: 0;
 }
 
 .checklist {
   color: #0D253E;
-  width: 510px;
-  height: 493px;
+  width: 360px;
+  height: 292px;
   border: 1px #eee solid; 
   border-radius: 0 0 4px 4px;
   box-sizing: border-box;
@@ -240,27 +250,36 @@ header {
 .checklist > ul {
   padding: 0;
   list-style-type: none;
-  margin: 49px 0 99px 60px;
+  margin: 48px 0 40px 71px;
 }
 
 .checklist > .button {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .list {
   display: flex;
   align-items: center;
+  height: 16px;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.list img {
+  margin-right: 12px;
 }
 
 /* アイコン */
 .icons {
   width: 100%;
-  min-width: 1280px;
-  height: 306px;
-  margin: 60px 0 175.5px 0;
-  padding: 0 126px 0 91px;
+  max-width: 410px;
+  height: 998px;
+  margin-top: 40px;
+  margin-bottom: 59px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
   box-sizing: border-box;
   color: #0D253E;
 }
@@ -269,16 +288,30 @@ header {
   width: 264px;
   height: 306px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .icon2 > img {
   margin: 4px 0;
 }
 
+.icon .title {
+  font-size: 28px;
+  margin: 0;
+}
+
+.icon .text {
+  font-size: 22px;
+  opacity: .4;
+}
+
+
 /* フッター */
 .footer {
-  margin: 0 0 155px 24px;
-  
+  max-width: 410px;
+  width: 100%;
+  height: 135px;
+  margin-bottom: 214px;
 }
 
 hr {
@@ -286,30 +319,29 @@ hr {
 }
 
 .footer img {
-  margin: 25.5px 0 44px 20px;
+  margin: 16px 0 0 12px;
 }
 
 .footer-menu {
-  width: 778px;
-  height: 62px;
+  width: 387px;
+  height: 18px;
   opacity: .25;
+  margin: 30px 0 32px 12px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: center;
 }
 
 .menu1 {
-  width: 281px;
+  width: 75px;
+  margin-right: 81px;
 }
 
 .menu2 {
-  width: 197px;
+  width: 75px;
+  margin-right: 81px;
 }
 
 .menu3 {
-  width: 225px;
-}
-
-.menu4 {
   width: 75px;
-
 }
+
